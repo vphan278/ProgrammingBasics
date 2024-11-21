@@ -1,0 +1,99 @@
+function greeting(){
+    return "Hello World";
+}
+var word = greeting();
+console.log(word)
+
+
+var a = 100;
+function abc(){
+    var a =25;
+    console.log(a);
+}
+
+abc();
+console.log(a);
+
+var x =10;
+function abc(x){
+    console.log(x);
+    return x*10;
+}
+
+result = abc(x);
+console.log(result)
+
+var x =10;
+function abc(x){
+    console.log(x);
+    return x *10;
+}
+//abc(x);
+//console.log(x);
+
+//result = abc();
+console.log(abc(10));
+
+var x =10;
+
+function abc(x){
+    console.log(x);
+    return x*10;
+}
+var z = abc(x);
+console.log(z);
+
+var x =10;
+function abc(x){
+    console.log(x);
+    return x *10;
+}
+var z = abc(x) + abc(x);
+console.log(z);
+
+var x = 10;
+y=20;
+
+function abc(x,y){
+    x = x +10;
+    y =y +10;
+    console.log(x);
+    console.log(y);
+}
+
+abc(x,y);
+console.log(abc(15,20));
+
+var x =10;
+var y =20;
+
+function abc(x,y){
+    x = x +10;
+    y = y +10;
+    console.log(x);
+    console.log(y);
+    return x * 10;
+}
+
+z = abc(x, y);
+console.log(x);
+console.log(y);
+console.log(z);
+
+
+var x =10, y =20;
+
+function abc(x,y){
+    x = x +10;
+    y = y +10;
+    return x *10;
+}
+
+z = abc(x,y) + abc(y, x);
+console.log(z);
+
+var x = [];
+x[0] = "Hello";
+x[1] = "World";
+x[2] = 100;
+console.log(x.length + "-" + x[0]);///3-Hello
